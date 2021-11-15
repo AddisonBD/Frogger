@@ -5,8 +5,8 @@ added a few homemade sounds - thinking of 3 lives then gameover, maybe.
 added start room. this will be obstacle/player-less.
 added start room's text/controller object.
 added global variables. start room is now also the end room.
-	this might not work lol. class starting, will come back.
-
+	made obj_text_etc Persistent. this lets it keep the global variables.
+	
 
 
 
