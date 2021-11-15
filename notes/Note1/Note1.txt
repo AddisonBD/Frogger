@@ -1,0 +1,19 @@
+added the ace attorney font because it looks nice.
+added obj_safegrass so that the game can be won.
+added a few homemade sounds - thinking of 3 lives then gameover, maybe.
+	dont have to use the gameover sound, though. the ow is more funny
+added start room. this will be obstacle/player-less.
+added start room's text/controller object.
+added global variables. start room is now also the end room.
+	this might not work lol. class starting, will come back.
+
+
+
+
+
+sprites to add:
+-fix yeehaw to be right size
+-make yeehaw frown when run over
+-add splash
+-make grass pwetty
+-make obstacles Obstacle Shaped. idk what it will be yet

@@ -1,17 +1,26 @@
 {
   "resources": [
+    {"id":{"name":"snd_ow","path":"sounds/snd_ow/snd_ow.yy",},"order":0,},
     {"id":{"name":"spr_grass","path":"sprites/spr_grass/spr_grass.yy",},"order":1,},
     {"id":{"name":"obj_obstacle","path":"objects/obj_obstacle/obj_obstacle.yy",},"order":4,},
+    {"id":{"name":"snd_congration","path":"sounds/snd_congration/snd_congration.yy",},"order":3,},
+    {"id":{"name":"snd_gameover","path":"sounds/snd_gameover/snd_gameover.yy",},"order":2,},
     {"id":{"name":"obj_road","path":"objects/obj_road/obj_road.yy",},"order":3,},
     {"id":{"name":"spr_obstacle","path":"sprites/spr_obstacle/spr_obstacle.yy",},"order":4,},
     {"id":{"name":"spr_placehold","path":"sprites/spr_placehold/spr_placehold.yy",},"order":0,},
     {"id":{"name":"spr_road","path":"sprites/spr_road/spr_road.yy",},"order":3,},
+    {"id":{"name":"snd_sploosh","path":"sounds/snd_sploosh/snd_sploosh.yy",},"order":1,},
+    {"id":{"name":"fnt_igiari","path":"fonts/fnt_igiari/fnt_igiari.yy",},"order":0,},
     {"id":{"name":"obj_grass","path":"objects/obj_grass/obj_grass.yy",},"order":1,},
     {"id":{"name":"spr_water","path":"sprites/spr_water/spr_water.yy",},"order":2,},
+    {"id":{"name":"room_startend","path":"rooms/room_startend/room_startend.yy",},"order":1,},
     {"id":{"name":"obj_obstControl","path":"objects/obj_obstControl/obj_obstControl.yy",},"order":5,},
+    {"id":{"name":"obj_text_etc","path":"objects/obj_text_etc/obj_text_etc.yy",},"order":7,},
+    {"id":{"name":"Note1","path":"notes/Note1/Note1.yy",},"order":0,},
+    {"id":{"name":"obj_safegrass","path":"objects/obj_safegrass/obj_safegrass.yy",},"order":6,},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":0,},
     {"id":{"name":"obj_water","path":"objects/obj_water/obj_water.yy",},"order":2,},
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
+    {"id":{"name":"room_main","path":"rooms/room_main/room_main.yy",},"order":0,},
   ],
   "Options": [
     {"name":"Main","path":"options/main/options_main.yy",},
@@ -26,7 +35,8 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"room_startend","path":"rooms/room_startend/room_startend.yy",},},
+    {"roomId":{"name":"room_main","path":"rooms/room_main/room_main.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
