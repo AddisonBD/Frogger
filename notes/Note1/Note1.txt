@@ -6,9 +6,19 @@ added start room. this will be obstacle/player-less.
 added start room's text/controller object.
 added global variables. start room is now also the end room.
 	made obj_text_etc Persistent. this lets it keep the global variables.
+	globals went into player create so that the text clears.
 	
+	if wanted we could get rid of the start screen. obj_text_etc could create
+		and/or destroy the other instances.
+		
+changed spr_obstacle's origin to top center so that it lines up in the grid.
+added obj_lilypad. variable onPlatform is important so that it doesn't count being in water first.
+copied code for obstacles to create logs.
 
+got obstacles/logs to move opposite directions depending on where their controller is.
 
+moved a few collision checks to step.
+	this lets the variables change like they're supposed to.
 
 
 sprites to add:

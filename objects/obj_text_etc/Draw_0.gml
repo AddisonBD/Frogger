@@ -3,8 +3,8 @@ if (global.startScreen = true) {
 }
 
 if (global.gameWon = true) {
-	draw_text(200,200,"you did it");
+	draw_text(200,200,"you did it\nspace to restart");
 }
 if (global.gameFail = true) {
-	draw_text(200,200,"you didn't do it");
+	draw_text(200,200,"you didn't do it\nspace to restart");
 }

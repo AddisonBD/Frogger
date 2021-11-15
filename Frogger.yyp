@@ -1,5 +1,8 @@
 {
   "resources": [
+    {"id":{"name":"obj_lilypad","path":"objects/obj_lilypad/obj_lilypad.yy",},"order":8,},
+    {"id":{"name":"spr_log","path":"sprites/spr_log/spr_log.yy",},"order":6,},
+    {"id":{"name":"obj_logControl","path":"objects/obj_logControl/obj_logControl.yy",},"order":10,},
     {"id":{"name":"snd_ow","path":"sounds/snd_ow/snd_ow.yy",},"order":0,},
     {"id":{"name":"spr_grass","path":"sprites/spr_grass/spr_grass.yy",},"order":1,},
     {"id":{"name":"obj_obstacle","path":"objects/obj_obstacle/obj_obstacle.yy",},"order":4,},
@@ -7,6 +10,7 @@
     {"id":{"name":"snd_gameover","path":"sounds/snd_gameover/snd_gameover.yy",},"order":2,},
     {"id":{"name":"obj_road","path":"objects/obj_road/obj_road.yy",},"order":3,},
     {"id":{"name":"spr_obstacle","path":"sprites/spr_obstacle/spr_obstacle.yy",},"order":4,},
+    {"id":{"name":"obj_log","path":"objects/obj_log/obj_log.yy",},"order":9,},
     {"id":{"name":"spr_placehold","path":"sprites/spr_placehold/spr_placehold.yy",},"order":0,},
     {"id":{"name":"spr_road","path":"sprites/spr_road/spr_road.yy",},"order":3,},
     {"id":{"name":"snd_sploosh","path":"sounds/snd_sploosh/snd_sploosh.yy",},"order":1,},
@@ -15,6 +19,7 @@
     {"id":{"name":"spr_water","path":"sprites/spr_water/spr_water.yy",},"order":2,},
     {"id":{"name":"room_startend","path":"rooms/room_startend/room_startend.yy",},"order":1,},
     {"id":{"name":"obj_obstControl","path":"objects/obj_obstControl/obj_obstControl.yy",},"order":5,},
+    {"id":{"name":"spr_lilypad","path":"sprites/spr_lilypad/spr_lilypad.yy",},"order":5,},
     {"id":{"name":"obj_text_etc","path":"objects/obj_text_etc/obj_text_etc.yy",},"order":7,},
     {"id":{"name":"Note1","path":"notes/Note1/Note1.yy",},"order":0,},
     {"id":{"name":"obj_safegrass","path":"objects/obj_safegrass/obj_safegrass.yy",},"order":6,},
