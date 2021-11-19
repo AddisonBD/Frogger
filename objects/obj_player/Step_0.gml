@@ -2,28 +2,26 @@
 	onPlatform=false;
 	speed=0;
 } */
-if (logMovement=true) {
-	direction = obj_log.direction;
-	speed = obj_log.speed;
-} else {
-	speed=0;
-} //lets the player move with the log.
-if (lilyTimer=60) {
-	instance_destroy(obj_lilypad);
-} //removes the lilypad.
+
+//If x isn't a multiple of 50 and not on water:
+if (x % 50 != 0 && !onLog) {
+	//Set x to nearest multiple of 50
+	x = round(x / 50) * 50;
+} //shoutout to guest coder Kameron
+
+
 
 // these place_meetings were added,
 	// so that onPlatform can be reset to false.
-if (place_meeting(x, y, obj_log)) {
-	onPlatform=true;
-	logMovement=true;
-} else {
-	onPlatform=false;
-	logMovement=false;
+
+if (!place_meeting(x, y, obj_log)) {
+	onPlatform = false;
+	onLog = false;
+	speed = 0;
 }
+	
 if (place_meeting(x, y, obj_lilypad)) {
-	onPlatform=true;
-	lilyTimer++;
+	onPlatform = true;
 } else {
-	onPlatform=false;
+	onPlatform = false;
 }
