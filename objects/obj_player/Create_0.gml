@@ -7,3 +7,5 @@ global.gameWon=false;
 global.gameFail=false;
 image_speed=0;
 image_index=3;
+delayFail=false;
+delayWon=false;
