@@ -1,7 +1,6 @@
 to add:
 -music
--proper yeehaw sprites
--obstacle/log/lilypad/road sprites
+-obstacle/log sprites
 
 
 igiari font from the internet based off the font in Ace Attorney
@@ -9,4 +8,4 @@ igiari font from the internet based off the font in Ace Attorney
 
 addison drake & casey verbsky
 
-grass/water/yeehaw brought to you by casey
+grass/water/road/lilypad/yeehaw brought to you by casey

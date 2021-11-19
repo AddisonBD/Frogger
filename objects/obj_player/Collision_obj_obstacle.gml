@@ -1,4 +1,4 @@
-image_index=1;
+image_index=5;
 delayTimer++;
 if (delayTimer=2) {
 	audio_play_sound(snd_ow, 1, false);

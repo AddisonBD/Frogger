@@ -5,10 +5,10 @@ if (global.startScreen = true) {
 
 if (global.gameWon = true) {
 	draw_text(210,200,"you did it\nspace to restart");
-	draw_sprite(spr_yeehaw, 2, 275, 300);
+	draw_sprite(spr_yeehaw, 4, 275, 300);
 }
 if (global.gameFail = true) {
 	draw_set_color(c_white);
 	draw_text(210,200,"you didn't do it\nspace to restart");
-	draw_sprite(spr_yeehaw, 1, 275, 300);
+	draw_sprite(spr_yeehaw, 5, 275, 300);
 }

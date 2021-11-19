@@ -6,3 +6,4 @@ global.startScreen=false; // in create so that text goes away immediately.
 global.gameWon=false;
 global.gameFail=false;
 image_speed=0;
+image_index=3;
