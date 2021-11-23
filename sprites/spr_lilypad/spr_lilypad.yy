@@ -7,10 +7,10 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 0,
-  "bbox_right": 49,
+  "bbox_left": 1,
+  "bbox_right": 46,
   "bbox_top": 0,
-  "bbox_bottom": 49,
+  "bbox_bottom": 48,
   "HTile": false,
   "VTile": false,
   "For3D": false,
@@ -24,9 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"2a970df6-dece-42c5-a6f2-14349e77d0e7","path":"sprites/spr_lilypad/spr_lilypad.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"2a970df6-dece-42c5-a6f2-14349e77d0e7","path":"sprites/spr_lilypad/spr_lilypad.yy",},"LayerId":{"name":"f7813407-1c68-45a3-82ff-ddb5262da760","path":"sprites/spr_lilypad/spr_lilypad.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_lilypad","path":"sprites/spr_lilypad/spr_lilypad.yy",},"resourceVersion":"1.0","name":"2a970df6-dece-42c5-a6f2-14349e77d0e7","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"af76c7d6-790e-4b13-b10d-9acafcfbf760","path":"sprites/spr_lilypad/spr_lilypad.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"af76c7d6-790e-4b13-b10d-9acafcfbf760","path":"sprites/spr_lilypad/spr_lilypad.yy",},"LayerId":{"name":"f7813407-1c68-45a3-82ff-ddb5262da760","path":"sprites/spr_lilypad/spr_lilypad.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_lilypad","path":"sprites/spr_lilypad/spr_lilypad.yy",},"resourceVersion":"1.0","name":"af76c7d6-790e-4b13-b10d-9acafcfbf760","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"2a79b6de-55fb-42c5-aff8-82c90f555953","path":"sprites/spr_lilypad/spr_lilypad.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"2a79b6de-55fb-42c5-aff8-82c90f555953","path":"sprites/spr_lilypad/spr_lilypad.yy",},"LayerId":{"name":"f7813407-1c68-45a3-82ff-ddb5262da760","path":"sprites/spr_lilypad/spr_lilypad.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_lilypad","path":"sprites/spr_lilypad/spr_lilypad.yy",},"resourceVersion":"1.0","name":"2a79b6de-55fb-42c5-aff8-82c90f555953","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"spr_lilypad","path":"sprites/spr_lilypad/spr_lilypad.yy",},
@@ -36,12 +39,13 @@
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
-    "length": 1.0,
+    "length": 2.0,
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"9609e1d5-7773-4b3c-ba22-82d12d38b4ef","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"2a970df6-dece-42c5-a6f2-14349e77d0e7","path":"sprites/spr_lilypad/spr_lilypad.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"fb22d2e7-cc32-418d-902e-01265c995a34","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"af76c7d6-790e-4b13-b10d-9acafcfbf760","path":"sprites/spr_lilypad/spr_lilypad.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"aec430e4-8406-4fd8-9db0-91b086be5956","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"2a79b6de-55fb-42c5-aff8-82c90f555953","path":"sprites/spr_lilypad/spr_lilypad.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,

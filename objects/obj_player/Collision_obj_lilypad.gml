@@ -1,6 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
 other.lilyTimer++;
-if (other.lilyTimer = 60) {
+if (other.lilyTimer = 90) {
 	instance_destroy(other);
 } //removes the lilypad.

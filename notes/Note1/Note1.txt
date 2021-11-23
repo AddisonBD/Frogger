@@ -1,29 +1,16 @@
-added the ace attorney font because it looks nice.
-added obj_safegrass so that the game can be won.
-added a few homemade sounds - thinking of 3 lives then gameover, maybe.
-	dont have to use the gameover sound, though. the ow is more funny
-added start room. this will be obstacle/player-less.
-added start room's text/controller object.
-added global variables. start room is now also the end room.
-	made obj_text_etc Persistent. this lets it keep the global variables.
-	globals went into player create so that the text clears.
-	
-	if wanted we could get rid of the start screen. obj_text_etc could create
-		and/or destroy the other instances.
-		
-changed spr_obstacle's origin to top center so that it lines up in the grid.
-added obj_lilypad. variable onPlatform is important so that it doesn't count being in water first.
-copied code for obstacles to create logs.
-
-got obstacles/logs to move opposite directions depending on where their controller is.
-
-moved a few collision checks to step.
-	this lets the variables change like they're supposed to.
+to add:
+-music
+-obstacle/log sprites
 
 
-sprites to add:
--fix yeehaw to be right size
--make yeehaw frown when run over
--add splash
--make grass pwetty
--make obstacles Obstacle Shaped. idk what it will be yet
+igiari font from the internet based off the font in Ace Attorney
+	(i just really like the font okay -c)
+music is the harvest festival theme from animal crossing on the gamecube
+	and yes it IS the worst thing ever made
+
+addison drake & casey verbsky
+
+grass/water/road/lilypad/yeehaw/sounds brought to you by casey
+log brought to you by addie
+
+we both did code dont worry

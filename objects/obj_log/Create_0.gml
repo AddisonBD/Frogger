@@ -5,4 +5,4 @@ if (x>650) {
 	direction=180;
 }
 
-speed = 1
+speed = random_range(1, 2);

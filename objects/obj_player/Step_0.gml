@@ -25,3 +25,24 @@ if (place_meeting(x, y, obj_lilypad)) {
 } else {
 	onPlatform = false;
 }
+
+// extra delay variables so that you can't cheat
+if (delayFail=true) {
+	delayTimer++;
+	if (delayTimer=14) {
+		global.gameFail=true;
+	}
+	if (delayTimer=15) {
+		room_goto_next();
+	}
+}
+if (delayWon=true) {
+	delayTimer++;
+	if (delayTimer=14) {
+		global.gameWon=true;
+	}
+	if (delayTimer=15) {
+		room_goto_next();
+	}
+}
+

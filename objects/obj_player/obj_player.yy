@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_placehold",
-    "path": "sprites/spr_placehold/spr_placehold.yy",
+    "name": "spr_yeehaw",
+    "path": "sprites/spr_yeehaw/spr_yeehaw.yy",
   },
   "solid": false,
   "visible": true,
