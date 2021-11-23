@@ -9,3 +9,5 @@ image_speed=0;
 image_index=3;
 delayFail=false;
 delayWon=false;
+
+snd = audio_play_sound(snd_painMusic, 1, true);

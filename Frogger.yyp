@@ -3,6 +3,7 @@
     {"id":{"name":"obj_lilypad","path":"objects/obj_lilypad/obj_lilypad.yy",},"order":8,},
     {"id":{"name":"spr_log","path":"sprites/spr_log/spr_log.yy",},"order":6,},
     {"id":{"name":"obj_logControl","path":"objects/obj_logControl/obj_logControl.yy",},"order":10,},
+    {"id":{"name":"snd_painMusic","path":"sounds/snd_painMusic/snd_painMusic.yy",},"order":4,},
     {"id":{"name":"snd_ow","path":"sounds/snd_ow/snd_ow.yy",},"order":0,},
     {"id":{"name":"spr_grass","path":"sprites/spr_grass/spr_grass.yy",},"order":1,},
     {"id":{"name":"obj_obstacle","path":"objects/obj_obstacle/obj_obstacle.yy",},"order":4,},
